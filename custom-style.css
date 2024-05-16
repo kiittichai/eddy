@@ -1,0 +1,85 @@
+/* General styles */
+
+  
+  /* HEADER SECTION */
+
+* {
+    font-family: 'Lato', sans-serif;
+  }
+  #h {
+    background: url(./img/phone_mockup.png) no-repeat center top;
+    background-color: #26272b;
+    padding-top: 300px;
+    padding-right:100px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 1100px;
+    width: 100%;
+    color: rgb(171, 171, 171);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: 50px;
+    background-size: 50cm;
+  }	
+  .img-responsive {
+    max-width: 100%; /* ทำให้รูปภาพปรับขนาดตามความกว้างของ container */
+    height: auto; /* ทำให้ความสูงของรูปภาพปรับตามอัตราส่วน */
+    margin-right: 100px; /* ปรับค่าตามที่ต้องการ */
+  }
+  
+  .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.text-contact {
+  margin-left: 200px; /* ปรับค่าตามที่ต้องการ */
+}
+body.policy {
+  background-color: #dcdcdc;
+  color: #333;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; 
+}
+.content-policy {
+  margin-top: 80px; 
+  margin-left: 2cm;
+
+}
+.container-policy {
+  /* ปรับขนาดตามที่คุณต้องการ */
+
+  padding: 10px;
+}
